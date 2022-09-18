@@ -9,10 +9,10 @@ addTemplateNode({
         },
     },
     __meta_outputs: {
-        number: {
-            type: 'Number',
-            showValue: true,       // Show value and the value can be changed by input component
-        },
-        
+        args: {
+            type: 'Object',
+            typeList: true       // 
+        }
+
     },
 });
